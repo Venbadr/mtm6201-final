@@ -1,5 +1,6 @@
 <!doctype html>
-<html lang="en">
+<!-- adding schema -->
+<html lang="en" itemscope itemtype="https://schema.org/NGO">
   <head>
     <!-- adding css library -->
     <link
@@ -60,7 +61,7 @@
               <!-- adding animation using animate css library -->
               <img
                 src="images/dogmob.png"
-                alt="dog"
+                alt="dog banner"
                 id="dog"
                 class="ps-2 animate__animated animate__fadeInDown"
               />
@@ -68,7 +69,8 @@
           </div>
 
           <div class="test col-6">
-            <nav
+              <!-- adding aria label -->
+            <nav aria-label="Main navigation"
               class="d-flex flex-column flex-lg-row justify-content-lg-between align-items-lg-center"
             >
               <div class="text-center mb-3">
@@ -102,7 +104,9 @@
 
     <!-- layout using bootsrap to have 2 columns and 2 rows for mobile and tablet and 1 columns and 4 rows on desktop  -->
 
-    <main>
+    <!-- adding skip link to main -->
+
+    <main id="main-content">
       <section class="container-xl mt-4 mb-2">
         <div class="row g-0 align-items-stretch">
           <!-- LEFT COLUMN -->
@@ -168,11 +172,11 @@
 
           <!-- customization of experience for mobile and larger screen  -->
           <div class="col-12 col-lg-6">
-            <div class="exp ms-lg-5">
-              <!-- adding skip link to main content -->
+            
+        <div class="exp ms-lg-5">
               <h2
                 class="success ps-2 pe-2 ms-2 my-4 text-center"
-                id="main-content"
+                
               >
                 EXPERIENCES
               </h2>
@@ -211,7 +215,7 @@
     <hr class="mt-2" />
 
     <footer>
-      <img src="images/sc.png" alt="sc" id="social" />
+      <img src="images/sc.png" alt="social media" id="social" />
       © Pawsitive futures 2026
     </footer>
   </body>
