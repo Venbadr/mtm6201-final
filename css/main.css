@@ -40,17 +40,8 @@ h1 {
   margin-top: 150px;
 }
 
-.cat {
-  color: var(--bs-primary);
-  background-color: var(--bs-secondary);
-}
 
-.cat1 {
-  background-color: var(--bs-secondary);
-  color: #0f3d2e;
-  text-shadow: 3px 2px 0 #f4efea;
-  -webkit-text-stroke-color: #f4efea;
-}
+
 
 /* styling the navs using css */
 
@@ -140,32 +131,6 @@ footer {
 
 
 /* adding hover states */
-.cat {
-  transition: 0.3s ease;
-}
-
-.cat:hover {
-  color: var(--bs-primary);
-  background-color: #0f3d2e;
-  text-shadow: none;
-}
-
-
-
-.cat1 {
-
-  transition: 0.3s ease;
-}
-
-
-
-.cat1:hover {
-  color: var(--bs-primary);
-  background-color: #0f3d2e;
-  text-shadow: none;
-}
-
-
 
 .dog1 {
   transition: 0.3s ease;
@@ -209,6 +174,15 @@ footer {
   color: #0f3d2e;
 }
 
+.cat1 {
+  background-color: var(--bs-secondary);
+  color: var(--bs-primary);
+  text-shadow: 4px 1px 0 #0f3d2e;
+
+  text-decoration: none;
+  -webkit-text-stroke: 0.5px #0f3d2e;
+}
+
 /* desktop customization */
 
 @media (min-width: 900px) {
@@ -242,6 +216,7 @@ footer {
   .dog1 {
     font-size: 2.3rem;
     padding: 0.2rem 0.7rem;
+    
   }
 
   #dog {
@@ -269,10 +244,7 @@ footer {
     margin-right: 0;
   }
 
-  .cat1 {
-    display: inline-block;
-    white-space: nowrap;
-  }
+  
   .herb a {
     margin-right: 0;
     background-color: transparent;
@@ -288,10 +260,9 @@ footer {
     margin-left: -250px;
   }
 
-  .cat1 {
-    font-size: 2.3rem;
-    padding: 0.2rem 0.7rem;
-  }
+  
+
+  
 
   #cont {
    margin-top: 20px;
@@ -303,6 +274,48 @@ footer {
     width: 460px;
     margin-top: -22px;
   }
+
+  /* fixing the layout of the navs for desktop */
+
+  .conta {
+   margin-left: -50px;
+   margin-right: 100px;
+   margin-bottom: 50px;
+  }
+
+  .abou {
+    margin-left: -50px;
+   margin-right: 100px;
+   margin-bottom: 50px;
+
+  }
+
+  .tes {
+    margin-left: -50px;
+   margin-right: 100px;
+   margin-bottom: 50px;
+  }
+
+  .sche {
+    margin-left: -50px;
+   margin-right: 100px;
+   margin-bottom: 50px;
+  }
+
+  /* fixing the layout of experiences */
+  .exp {
+
+    margin-top: -25px;
+  }
+
+  .row {
+    margin-left: -10px;
+  }
+  
+  
+
+  
+
 }
 
 
