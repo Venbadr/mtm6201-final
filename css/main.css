@@ -1,0 +1,236 @@
+/* custom css using root to assign personalized colors */
+
+:root {
+     --bs-primary: #F4EFEA;
+     --bs-secondary: #D97A3A;
+     --bs-secondary-rgb: 217, 122, 58;
+     --bs-primary-rgb: 244, 239, 234
+}
+
+.bg-primary {
+    background-color: var(--bs-primary) ;
+}
+ 
+
+/* controlling the width of the logo  */
+
+#logo {
+    width: 200px;
+    
+    
+}
+
+/* adding font family */
+
+body {
+    font-family: bebas neue;
+}
+
+/* styling the banner */
+
+.banner {
+    background:url("../Images/heromob.png") no-repeat center;
+   height: 800px;
+  color: var(--bs-primary) ;
+   -webkit-text-stroke: 1px #0F3D2E;
+   text-shadow: 3px 2px 0  #0F3D2E;
+   margin-top: -50px;
+   
+}
+
+h1 {
+    font-weight: 100;
+    margin-top: 150px;
+    
+    
+   
+}
+
+.cat {
+   
+   
+    color: var(--bs-primary) ;
+     background-color: var(--bs-secondary) 
+   
+    }
+    
+
+.cat1 {
+    background-color: var(--bs-secondary);
+    color: #0F3D2E;
+    text-shadow: 3px 2px 0  #F4EFEA;
+    -webkit-text-stroke-color: #F4EFEA;
+    
+   
+
+
+}
+
+
+/* styling the navs using css */
+
+.herb {
+    margin-top: 350px;
+    
+}
+
+.herb a {
+    text-decoration: none;
+    
+}
+
+.herb1 a {
+    text-decoration: none;
+    
+}
+
+
+
+.success {
+    background-color: #0F3D2E;
+    color: #F4EFEA;
+    margin-right: 300px;
+    
+}
+
+
+.story {
+    color: #0F3D2E;
+    text-shadow: none;
+    stroke: none;
+    -webkit-text-stroke-color: transparent;
+    
+}
+
+/* adding font family to the paragraph of the successful stories */
+
+.pets {
+    font-family: inter;
+}
+.expi {
+    font-family: inter;
+    color: #0F3D2E;
+}
+
+
+.sto {
+    color: var(--bs-secondary);
+    
+     -webkit-text-stroke-color: white;
+     text-shadow: 3px 2px 0  white
+}
+
+
+
+
+
+.dog1 {
+     background-color: var(--bs-secondary);
+    color: #0F3D2E;
+    text-shadow: 4px 1px 0  #F4EFEA;
+    
+    text-decoration: none;
+    -webkit-text-stroke: 0.5px #F4EFEA;
+}
+/* customization of the footer  */
+
+hr {
+    margin-top: 300px;
+}
+
+#social {
+    width: 150px;
+    margin-right: 30px;
+   
+}
+
+footer {
+    color: #0F3D2E;
+    font-family: inter;
+}
+
+
+.test a {
+    margin-right: -100px;
+}
+
+.test {
+    margin-top: -70px;
+}
+#dog {
+    height: 160px;
+   width: 340px;
+}
+
+
+
+/* adding hover states */
+.cat {
+     transition: 0.3s ease;
+
+}
+
+.cat:hover {
+  color: var(--bs-primary);
+  background-color: #0F3D2E;
+  text-shadow: none;
+}
+
+
+
+.cat1 {
+
+  transition: 0.3s ease;
+}
+
+.cat1:hover {
+  color: var(--bs-primary);
+  background-color: #0F3D2E;
+  text-shadow: none;
+}
+
+
+
+.dog1 {
+    transition: 0.3s ease;
+}
+
+.dog1:hover {
+  color: var(--bs-primary);
+  background-color: #0F3D2E;
+  text-shadow: none;
+}
+
+
+#cont {
+     height: 160px;
+   width: 340px;
+
+}
+
+.contact {
+
+    color: #F4EFEA;
+   -webkit-text-stroke: 2px #0F3D2E;
+   text-shadow: 2px 2px 0 #0F3D2E;
+    
+
+
+}
+
+.btn {
+    color: #0F3D2E;
+    background-color: var(--bs-secondary);
+    border: none;
+    text-shadow: 2px 2px 0 #F4EFEA;
+    font-size: 20px;
+    
+
+
+}
+
+.btn:hover {
+  color: var(--bs-primary);
+  background-color: #0F3D2E;
+  text-shadow: none;
+}
