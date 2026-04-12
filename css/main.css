@@ -27,7 +27,7 @@ body {
 /* styling the banner */
 
 .banner {
-  background: url("../images/heromob.png") no-repeat center;
+  background: url("../images/heromob.jpeg") no-repeat center;
   height: 800px;
   color: var(--bs-primary);
   -webkit-text-stroke: 1px #0f3d2e;
