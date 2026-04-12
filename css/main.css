@@ -142,6 +142,15 @@ footer {
   text-shadow: none;
 }
 
+.cat1 {
+  transition: 0.3s ease;
+}
+
+.cat1:hover {
+  color: var(--bs-primary);
+  background-color: #0f3d2e;
+  text-shadow: none;
+}
 
 #cont {
   height: 160px;
