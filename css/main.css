@@ -234,3 +234,55 @@ footer {
   background-color: #0F3D2E;
   text-shadow: none;
 }
+
+
+
+@media (min-width: 992px) {
+    .test {
+        margin-top: 0;
+    }
+
+    .test a {
+    margin-right: 0;
+}
+
+.dog1 {
+    display: inline-block;
+    white-space: nowrap;
+}
+    .test a {
+        margin-right: 0;
+        background-color: transparent;
+        color: #D97A3A;
+        
+    }
+
+    .test nav {
+        flex-direction: row !important;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-top: -150px;
+        margin-left: -250px;
+        
+    }
+
+    .dog1 {
+        font-size: 2.3rem;
+        padding: 0.2rem 0.7rem;
+    }
+
+    #dog {
+        width: 1600px;
+        height: 200px;
+        margin-left: 0px;
+    }
+
+    #cont {
+         width: 1300px;
+        height: 200px;
+    }
+
+    
+}
+
