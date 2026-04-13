@@ -39,7 +39,7 @@ h1 {
   margin-top: 150px;
 }
 
-/* styling the navs using css */
+/* styling the navs using css for more precision, removing the text decoration, adding some colors and background colors with some big margin */
 
 .herb {
   margin-top: 340px;
@@ -113,13 +113,15 @@ footer {
 
 .test {
   margin-top: -70px;
+
+  /* customization of the testimonials banner page */
 }
 #dog {
   height: 160px;
   width: 340px;
 }
 
-/* adding hover states */
+/* adding hover states with some transition  */
 
 .dog1 {
   transition: 0.3s ease;
@@ -141,6 +143,8 @@ footer {
   text-shadow: none;
 }
 
+/* customization of the contact banner page */
+
 #cont {
   height: 160px;
   width: 340px;
@@ -152,7 +156,7 @@ footer {
   text-shadow: 2px 2px 0 #0f3d2e;
 }
 
-/* adding hover states for button */
+/* adding hover states for button for more precision */
 
 .btn {
   color: #0f3d2e;
@@ -181,7 +185,7 @@ footer {
   -webkit-text-stroke: 0.5px #0f3d2e;
 }
 
-/* desktop customization */
+/* desktop customization using min width for more control*/
 
 @media (min-width: 900px) {
   .test {
@@ -202,6 +206,7 @@ footer {
     color: #d97a3a;
   }
 
+  /* customization of the navigation section  */
   .test nav {
     flex-direction: row !important;
     justify-content: space-between;
@@ -216,11 +221,14 @@ footer {
     padding: 0.2rem 0.7rem;
   }
 
+  /* customization of the dog banner page */
   #dog {
     width: 1430px;
     height: 200px;
     margin-left: 0px;
     margin-top: 20px;
+
+    /* customization of the contact banner page */
   }
 
   #cont {
