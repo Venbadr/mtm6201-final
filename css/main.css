@@ -46,7 +46,7 @@ h1 {
 /* styling the navs using css */
 
 .herb {
-  margin-top: 320px;
+  margin-top: 340px;
 }
 
 .herb a {
@@ -286,7 +286,7 @@ footer {
 
   /* fixing the layout of the navs for desktop */
 
-  .conta {
+  /* .conta {
    margin-left: -50px;
    margin-right: 100px;
    margin-bottom: 50px;
@@ -309,7 +309,11 @@ footer {
     margin-left: -50px;
    margin-right: 100px;
    margin-bottom: 50px;
-  }
+  } */
+
+  .herb .text-center {
+  margin: 0;
+}
 
   /* fixing the layout of experiences */
   .exp {
@@ -320,6 +324,28 @@ footer {
   .row {
     margin-left: -10px;
   }
+
+  nav[aria-label="main navigation"] {
+  position: relative;
+}
+
+/* making the navigation volunteer button centered */
+
+.herb1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+
+  /* customization for the navs */
+ 
+}
+
+.herb {
+  margin-left: 350px;
+}
+  
+  
   
   
 
