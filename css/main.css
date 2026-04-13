@@ -11,7 +11,6 @@
   background-color: var(--bs-primary);
 }
 
-
 /* controlling the width of the logo  */
 
 #logo {
@@ -40,9 +39,6 @@ h1 {
   margin-top: 150px;
 }
 
-
-
-
 /* styling the navs using css */
 
 .herb {
@@ -57,14 +53,11 @@ h1 {
   text-decoration: none;
 }
 
-
-
 .success {
   background-color: #0f3d2e;
   color: #f4efea;
   margin-right: 300px;
 }
-
 
 .story {
   color: #0f3d2e;
@@ -82,7 +75,6 @@ h1 {
   font-family: inter;
   color: #0f3d2e;
 }
-
 
 .sto {
   color: var(--bs-secondary);
@@ -115,7 +107,6 @@ footer {
   font-family: inter;
 }
 
-
 .test a {
   margin-right: -100px;
 }
@@ -127,8 +118,6 @@ footer {
   height: 160px;
   width: 340px;
 }
-
-
 
 /* adding hover states */
 
@@ -225,7 +214,6 @@ footer {
   .dog1 {
     font-size: 2.3rem;
     padding: 0.2rem 0.7rem;
-    
   }
 
   #dog {
@@ -253,7 +241,6 @@ footer {
     margin-right: 0;
   }
 
-  
   .herb a {
     margin-right: 0;
     background-color: transparent;
@@ -269,12 +256,8 @@ footer {
     margin-left: -250px;
   }
 
-  
-
-  
-
   #cont {
-   margin-top: 20px;
+    margin-top: 20px;
   }
   /* map customization for desktop */
 
@@ -312,12 +295,11 @@ footer {
   } */
 
   .herb .text-center {
-  margin: 0;
-}
+    margin: 0;
+  }
 
   /* fixing the layout of experiences */
   .exp {
-
     margin-top: -25px;
   }
 
@@ -326,31 +308,21 @@ footer {
   }
 
   nav[aria-label="main navigation"] {
-  position: relative;
+    position: relative;
+  }
+
+  /* making the navigation volunteer button centered */
+
+  .herb1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+
+    /* customization for the navs */
+  }
+
+  .herb {
+    margin-left: 350px;
+  }
 }
-
-/* making the navigation volunteer button centered */
-
-.herb1 {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 0;
-
-  /* customization for the navs */
- 
-}
-
-.herb {
-  margin-left: 350px;
-}
-  
-  
-  
-  
-
-  
-
-}
-
-
