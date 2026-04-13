@@ -304,18 +304,11 @@ footer {
   .herb {
     margin-left: 350px;
   }
+  /* image change when min width 990px or bigger to the desktop hero banner */
 
   .banner {
     margin-top: 5px;
-    
-  }
-  
-}
 
-/* image change when min width 990px or bigger to the desktop hero banner */
-
-@media (min-width: 990px) {
-  .banner {
     background: url(../images/herodesk.jpeg);
     background-size: cover;
   }
