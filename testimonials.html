@@ -34,10 +34,10 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <!-- adding skip link -->
+    <!-- adding skip link for keyboard users for easy navigation -->
     <a href="#main-content" class="skip-link">Skip to main content</a>
     <header>
-      <!-- logo -->
+      <!-- using bootstrap padding to the logo-->
 
       <img
         class="img-fluid pt-2 pb-2"
@@ -46,7 +46,7 @@
         id="logo"
       />
 
-      <!-- layout for the image and the navs -->
+      <!-- layout for the image using picture tag so it matches every screen responsiveness  -->
 
       <div class="container-fluid">
         <div class="row align-items-center">
@@ -76,7 +76,7 @@
               aria-label="Main navigation"
               class="d-flex flex-column flex-lg-row justify-content-lg-between align-items-lg-center"
             >
-              <!-- adding navigations  -->
+              <!-- adding bootstrap breakpoints to the navigation for the layout to stays vertical for mobile and tablet and horizontal for desktop -->
               <div class="text-center mb-3">
                 <a href="index.html" class="dog1 display-6 px-3">VOLUNTEER</a>
               </div>
@@ -115,7 +115,9 @@
         <div class="row g-0 align-items-stretch">
           <!-- adding the layout using bootstrap breakpoint for small medium and large screen -->
           <div class="col-12 col-md-12 col-lg-6">
-            <h2 class="success ps-2 pe-2 ms-2 ps-md-2 pe-md-2 ms-md-2 text-center mb-4">
+            <h2
+              class="success ps-2 pe-2 ms-2 ps-md-2 pe-md-2 ms-md-2 text-center mb-4"
+            >
               SUCCESSFUL STORIES
             </h2>
 
@@ -146,6 +148,8 @@
                 </div>
               </div>
 
+              <!-- using breakpoint and col-6 for mobile to stay half the width and col-12 to stay full width for larger screen  -->
+
               <div class="col-6 col-lg-12">
                 <div class="story">
                   <h3 class="sto ms-2">Olivia P., Ottawa - Adopted Daisy 🐕</h3>
@@ -158,6 +162,7 @@
                   </p>
                 </div>
               </div>
+              <!-- using breakpoint and col-6 for mobile to stay half the width and col-12 to stay full width for larger screen  -->
 
               <div class="col-6 col-lg-12">
                 <div class="story">
@@ -181,6 +186,7 @@
               <h2 class="success ps-2 pe-2 ms-2 my-4 text-center">
                 EXPERIENCES
               </h2>
+              <!-- adding some margin and making the text bold using bootstrap -->
 
               <h3 class="sto ms-2">DAPHNEE., OHIO-ANIMAL SHELTER</h3>
               <p class="expi ms-2 fw-bold">
