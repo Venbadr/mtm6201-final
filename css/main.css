@@ -242,17 +242,15 @@ footer {
   }
 
   .herb {
-    margin-top: -900px;
+    margin-top: -850px;
   }
 
   .herb a {
-    margin-right: 0;
-  }
-
-  .herb a {
-    margin-right: 0;
     background-color: transparent;
     color: #d97a3a;
+  }
+
+  .dog1 {
   }
 
   .test nav {
@@ -305,5 +303,20 @@ footer {
 
   .herb {
     margin-left: 350px;
+  }
+
+  .banner {
+    margin-top: 5px;
+    
+  }
+  
+}
+
+/* image change when min width 990px or bigger to the desktop hero banner */
+
+@media (min-width: 990px) {
+  .banner {
+    background: url(../images/herodesk.jpeg);
+    background-size: cover;
   }
 }
